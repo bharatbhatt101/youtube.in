@@ -394,7 +394,7 @@ video {
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:780px) {
 
     * {
         margin: 0;
@@ -561,7 +561,7 @@ video {
     }
 }
 
-@media screen and (max-width:614px) {
+@media screen and (max-width:668px) {
 
 
     .slide,.bar,.mic,.create,.user {
