@@ -90,6 +90,12 @@ img {
 
 }
 
+.text
+    {
+        margin-top:1rem;
+        
+    }
+
 .sicon {
     width: 4rem;
     border: .1rem solid #808070;
@@ -816,7 +822,7 @@ video {
         width:18rem;
         border-radius: .7rem;
         height: 9rem;
-        border: .2rem solid red;
+        border: .2rem solid black;
         margin-top: 1rem;
         
         
@@ -829,6 +835,6 @@ video {
         position: fixed;
         background-color:white;
         bottom:0;
-        margin-bottom:0rem ;
+        
     }
 }
