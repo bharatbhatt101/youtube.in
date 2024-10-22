@@ -842,7 +842,7 @@ video {
     .bb1_1 {
         min-height:6rem;
         width:95%;
-        margin-left:.8rem;
+        margin-left:1rem;
         margin-right:0;
         /* border-radius: .7rem; */
         display:flex;
