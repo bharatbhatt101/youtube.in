@@ -843,7 +843,8 @@ video {
         min-height:6rem;
         width:95%;
         margin-left:1rem;
-        margin-right:0;
+        margin-right:1rem;
+        
         /* border-radius: .7rem; */
         display:flex;
         flex-direction: column;
