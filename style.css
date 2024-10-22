@@ -243,14 +243,14 @@ img {
 }
 .box2
 {
-     display:none;
+    display:none;
 }
 .box1 {
     width: fit-content;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: .5rem;
-
+    
     cursor: pointer;
     height: 2rem;
     border: .1rem solid black;
@@ -302,7 +302,8 @@ img {
     align-items: center;
     flex-wrap: wrap;
     text-align: left;
-
+    border:.1rem solid black;
+    margin-bottom:2.8rem;
 }
 
 
