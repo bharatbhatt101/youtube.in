@@ -241,7 +241,10 @@ img {
     text-align: center;
     justify-content: left;
 }
-
+.box2
+{
+     display:none;
+}
 .box1 {
     width: fit-content;
     padding-left: 1rem;
@@ -274,13 +277,13 @@ img {
     margin-left: 1.5rem;
     font-size: 1.5rem;
     text-align: left;
-
-
+    
+    
 }
 
 #ytd {
-    margin-left: 5.5rem;
     background-color: grey;
+    margin-left: 5.5rem;
     color: white;
 }
 
@@ -311,10 +314,10 @@ img {
     align-items: flex-start;
     height: 15rem;
     margin: .5rem;
-
+    
     border: .1rem solid transparent;
     border-radius: 1rem;
-
+    
 }
 
 .bb1:hover {
@@ -323,7 +326,7 @@ img {
     cursor: pointer;
     opacity: 50%;
     transition: all ease-in-out 1s;
-
+    
 }
 
 .bb1_1 {
@@ -338,7 +341,7 @@ video {
     width: 20rem;
     border-radius: 1rem;
     height: 10rem;
-
+    
 }
 
 .slide {
@@ -390,7 +393,7 @@ video {
 .lbs i {
     font-size: 1.5rem;
     cursor: pointer;
-
+    
 }
 
 .h3_1,
@@ -401,15 +404,18 @@ video {
 
 
 @media screen and (max-width:868px) {
-
+    
     * {
         margin: 0;
         padding: 0;
         appearance:none;
-
+        
     }
-
-
+    
+    .box2
+    {
+        display:none;
+    }
     .search,
     .dicon {
         display: none;
@@ -419,11 +425,11 @@ video {
         border: .1rem solid transparent;
         width: 2.5rem;
         height: 2.5rem;
-
+        
         border-radius: 50%;
         text-align: center;
         align-items: center;
-
+        
         background-color: transparent;
         margin-left: 4rem;
         color: black;
@@ -473,15 +479,16 @@ video {
         border: .1rem solid #808070;
     }
 
+    
     .create {
         margin: 0;
     }
-
+    
     .create:hover {
         margin: 0;
 
     }
-
+    
     .hdiv {
         display: flex;
         justify-content: left;
@@ -606,6 +613,28 @@ video {
         text-align: center;
         
     }
+
+    #ytd {
+        background-color: grey;
+        margin-left:.8rem;
+        color: white;
+    }   
+        .box2 {
+            width: fit-content;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            display: inline-block;
+            cursor: pointer;
+            height: 2rem;
+            margin-left: 5rem;
+            border: .1rem solid black;
+            display: flex;
+            font-size: 1rem;
+            justify-content: center;
+            border-radius: .5rem;
+            align-items: center;
+            text-align: center;
+        }
     
     .hom1
     {
@@ -764,65 +793,69 @@ video {
 
 @media screen and (max-width:470px) {
      
+    *{
+        margin:0;
+        padding:0;
+        border:border-box;
+        appearance:none;
+    }
     .slide
     {
         display:none;
     }
     .bbox
     {
+
+        margin-top:0;
         display: flex;
-        align-items: center;
-        text-align:center;
         flex-direction: column;
     }
 
       .bb1 {
         display: flex;
-        justify-content:center;
-        align-items:center;
-        text-align:left;
-
-        width:90%;
+        min-height:6rem;
+        width:100%;
         height:fit-content;
         border: .1rem solid transparent;
-        border-radius: .7rem;
-        
+        /* border-radius: .7rem; */
+        margin-left:0;
     }
     
     .bb1:hover {
         border: .1rem solid #8080;
-
+        
+        min-height:6rem;
         background-color: #8080;
-        cursor: pointer;
         opacity: 50%;
+        margin-left:0;
+        cursor: pointer;
         transition: all ease-in-out 1s;
-
+        
     }
-
+    
     .text
     {
         margin-top:1rem;
         
     }
-
+    
     .bb1_1 {
-        /* width: 10rem; */
-        border-radius: .7rem;
+        min-height:6rem;
+        width:95%;
+        margin-left:0.1rem;
+        margin-right:0;
+        /* border-radius: .7rem; */
         display:flex;
-        justify-content:center;
-        align-items: center;
         flex-direction: column;
-        height:fit-content;
-        /* margin: 1rem; */
-        
+        height:fit-content;        
         border: .1rem solid transparent;
     }
     
     video{
-        width:18rem;
-        border-radius: .7rem;
-        height: 9rem;
-        border: .2rem solid black;
+        width:100%;
+        border-radius:0;
+        min-height:9rem;
+        height: 12rem;
         margin-top: 1rem;
         
         
